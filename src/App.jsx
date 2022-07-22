@@ -6,7 +6,7 @@ import ColorForm from './ColorForm'
 const App = () => {
   let [colors, setColors] = useState(['violet', 'blue', 'lightblue', 'green', 'greenyellow', 'yellow', 'orange', 'red'])
 
-  let colorMap = colors.map((color,i) => {
+  let colorMap = colors.map((color, i) => {
     return (
       <ColorBlock key={i} color={color} />
     )
